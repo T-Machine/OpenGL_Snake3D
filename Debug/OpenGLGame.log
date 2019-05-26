@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: 中间目录(Debug\)包含从另一个项目(OpenGLproject.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  SnakeGame.cpp
+c:\users\chentp\source\repos\openglgame\openglgame\game\snakegame.cpp(168): warning C4018: “<”: 有符号/无符号不匹配
+  OpenGLGame.vcxproj -> C:\Users\chentp\source\repos\OpenGLGame\Debug\OpenGLGame.exe

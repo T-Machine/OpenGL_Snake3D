@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{0482a527-d18a-4312-afef-31f11611f80c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{3341d2d7-4cd6-4cf1-8f2a-bf5efecd40de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{c6c90c95-59ed-4603-8b6d-bbb1caf1b439}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{0d4eedda-1054-4073-b58c-8997cfc17836}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\texture">
+      <UniqueIdentifier>{8099b9a9-c679-48c7-9d2f-08c7f4b28f1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\shader">
+      <UniqueIdentifier>{ffb3ba89-56cb-4636-b16e-45d871deb006}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\resource_manager">
+      <UniqueIdentifier>{a537d197-ffa7-4d14-99d0-5e69bd3470a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\shaders">
+      <UniqueIdentifier>{6d008a9c-547f-4285-8346-dc104391c458}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\sprite_renderer">
+      <UniqueIdentifier>{343ba15b-2a8e-4d8f-88f6-a3f4e92e0399}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object">
+      <UniqueIdentifier>{9602db49-e04b-4de0-8f8b-6d70b04df286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\model">
+      <UniqueIdentifier>{77ccd01a-e1f4-4578-9f16-09607e0df6d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\text_renderer">
+      <UniqueIdentifier>{9b840b4c-ffc9-418e-a556-fed2dc7165b9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\..\GLFW\glad\src\glad.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_glfw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_opengl3.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\texture\texture.cpp">
+      <Filter>lib\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\resource_manager\resource_manager.cpp">
+      <Filter>lib\resource_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\shader\shader.cpp">
+      <Filter>lib\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\sprite_renderer\sprite_renderer.cpp">
+      <Filter>lib\sprite_renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\SnakeGame.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Object\GameObject.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Object\SnakeObject.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>lib\model</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\model\model.cpp">
+      <Filter>lib\model</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\text_renderer\text_renderer.cpp">
+      <Filter>lib\text_renderer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_glfw.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_opengl3.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\shader\shader.h">
+      <Filter>lib\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\texture\texture.h">
+      <Filter>lib\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\resource_manager\resource_manager.h">
+      <Filter>lib\resource_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\sprite_renderer\sprite_renderer.h">
+      <Filter>lib\sprite_renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\SnakeGame.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Object\GameObject.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Object\SnakeObject.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\model\mesh.h">
+      <Filter>lib\model</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\model\model.h">
+      <Filter>lib\model</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\text_renderer\text_renderer.h">
+      <Filter>lib\text_renderer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imgui\imgui.ini">
+      <Filter>imgui</Filter>
+    </None>
+    <None Include="Game\shaders\sprite.frag">
+      <Filter>Game\shaders</Filter>
+    </None>
+    <None Include="Game\shaders\sprite.vs">
+      <Filter>Game\shaders</Filter>
+    </None>
+    <None Include="Game\shaders\color.frag">
+      <Filter>Game\shaders</Filter>
+    </None>
+    <None Include="Game\shaders\color.vs">
+      <Filter>Game\shaders</Filter>
+    </None>
+    <None Include="Game\shaders\lightObject.frag">
+      <Filter>Game\shaders</Filter>
+    </None>
+    <None Include="Game\shaders\lightObject.vs">
+      <Filter>Game\shaders</Filter>
+    </None>
+    <None Include="Game\shaders\text.frag">
+      <Filter>Game\shaders</Filter>
+    </None>
+    <None Include="Game\shaders\text.vs">
+      <Filter>Game\shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resourses\sz1.png">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="resources\worry.jpg">
+      <Filter>resources</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
